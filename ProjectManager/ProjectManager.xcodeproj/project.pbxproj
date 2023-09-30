@@ -63,6 +63,9 @@
 		C7431F0425F51E1D0094C4CF /* ProjectManager */ = {
 			isa = PBXGroup;
 			children = (
+				CDE70F302AC7C7820041702A /* Model */,
+				CDE70F322AC7C7930041702A /* View */,
+				CDE70F312AC7C78C0041702A /* ViewModel */,
 				C7431F0525F51E1D0094C4CF /* AppDelegate.swift */,
 				C7431F0725F51E1D0094C4CF /* SceneDelegate.swift */,
 				C7431F0925F51E1D0094C4CF /* ViewController.swift */,
@@ -72,6 +75,27 @@
 				C7431F1325F51E1E0094C4CF /* Info.plist */,
 			);
 			path = ProjectManager;
+			sourceTree = "<group>";
+		};
+		CDE70F302AC7C7820041702A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDE70F312AC7C78C0041702A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CDE70F322AC7C7930041702A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F0CF569056BE8601B88592C7 /* Frameworks */ = {
@@ -88,7 +112,6 @@
 				AE6953FA39ACE63C6A8C12DF /* Pods-ProjectManager.debug.xcconfig */,
 				0A9BF948BEFB3E6B62FE33F8 /* Pods-ProjectManager.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
